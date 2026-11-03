@@ -262,8 +262,11 @@ dependencies = [
     { name = "ipykernel" },
     { name = "matplotlib" },
     { name = "numpy" },
+    { name = "openpyxl" },
     { name = "pandas" },
+    { name = "plotly" },
     { name = "scikit-learn" },
+    { name = "seaborn" },
 ]
 
 [package.metadata]
@@ -271,8 +274,20 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=7.4.0" },
     { name = "matplotlib", specifier = ">=3.9" },
     { name = "numpy", specifier = ">=2.0" },
+    { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "pandas", specifier = ">=2.2" },
+    { name = "plotly", specifier = ">=7.1.0" },
     { name = "scikit-learn", specifier = ">=1.5" },
+    { name = "seaborn", specifier = ">=0.13.2" },
+]
+
+[[package]]
+name = "et-xmlfile"
+version = "2.0.0"
+source = { registry = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/simple" }
+sdist = { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/d3/38/af70d7ab1ae9d4da450eeec1fa3918940a5fafb9055e934af8d6eb0c2313/et_xmlfile-2.0.0.tar.gz", hash = "sha256:dab3f4764309081ce75662649be815c4c9081e88f0837825f90fd28317d4da54" }
+wheels = [
+    { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/c1/8b/5fe2cc11fee489817272089c4203e679c63b570a5aaeb18d852ae3cbba6a/et_xmlfile-2.0.0-py3-none-any.whl", hash = "sha256:7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa" },
 ]
 
 [[package]]
@@ -726,6 +741,18 @@ wheels = [
 ]
 
 [[package]]
+name = "openpyxl"
+version = "3.1.5"
+source = { registry = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/simple" }
+dependencies = [
+    { name = "et-xmlfile" },
+]
+sdist = { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/3d/f9/88d94a75de065ea32619465d2f77b29a0469500e99012523b91cc4141cd1/openpyxl-3.1.5.tar.gz", hash = "sha256:cf0e3cf56142039133628b5acffe8ef0c12bc902d2aadd3e0fe5878dc08d1050" }
+wheels = [
+    { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/c0/da/977ded879c29cbd04de313843e76868e6e13408a94ed6b987245dc7c8506/openpyxl-3.1.5-py2.py3-none-any.whl", hash = "sha256:5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2" },
+]
+
+[[package]]
 name = "packaging"
 version = "26.3"
 source = { registry = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/simple" }
@@ -900,6 +927,19 @@ source = { registry = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/simple" }
 sdist = { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/58/e6/d0abbb256b44e6a05748c6942511ff67db8dbb068de0c35b24bf1b395b09/platformdirs-4.13.5.tar.gz", hash = "sha256:05831adf87d392760f4b5c3a0a95579ab5a10b18b9b9bd43680dcb47544788a0" }
 wheels = [
     { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/6c/8a/1d8cb3842909dc193a73835adedf412e32e18f8ffd59f43983949622fe6f/platformdirs-4.13.5-py3-none-any.whl", hash = "sha256:53d3ec4280b815c1e0b02edad7f9ee8fda1ba9c0865dd9c2e6e63849ce82fc1e" },
+]
+
+[[package]]
+name = "plotly"
+version = "7.1.0"
+source = { registry = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/simple" }
+dependencies = [
+    { name = "narwhals" },
+    { name = "packaging" },
+]
+sdist = { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/49/c3/72b369f5ed7701b04ab0ea3dcf83e9bbce71c0b3bc6f07f87568550d09ea/plotly-7.1.0.tar.gz", hash = "sha256:f860166a4a3d78c69cb1f4a15f28a5c8283eade98a282a698f3bb853a449ace5" }
+wheels = [
+    { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/e5/7d/905a3a3d51087515719058c94cfbda2ff0fc14417c20d557ae3e82d8b250/plotly-7.1.0-py3-none-any.whl", hash = "sha256:dbb7fa18afce40d0a8e80d1bf162eceb3faa0ce5a77fe741ad09a74cf78f53f3" },
 ]
 
 [[package]]
@@ -1168,6 +1208,20 @@ wheels = [
     { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/cf/d9/135be205d9de8783193aff9cc3bf483a03a38e4b29432c954e8cb66ac14e/scipy-1.18.1-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:179ce34a8d0fe273d8883ba59e17e052247d08973dfcb743ca52bb1cce2d60b0" },
     { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/5c/a2/5b7d5270621ab7cfa3f7766067bf95dc360b5efb6394694e8143b4156e2b/scipy-1.18.1-cp315-cp315t-win_amd64.whl", hash = "sha256:5632e3ae3d09197c446310cd5187de63e28448ce22f0f67b2b93d97503c0c230" },
     { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/63/ad/741c19fcb66755ff953daf9243af8480e4bf3d7fbe57583c178c7d2b6b51/scipy-1.18.1-cp315-cp315t-win_arm64.whl", hash = "sha256:eda632a7981f69730d6281f451db9c1c370993a2c0d7ddb43e2a809a2862b83a" },
+]
+
+[[package]]
+name = "seaborn"
+version = "0.13.2"
+source = { registry = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+]
+sdist = { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/86/59/a451d7420a77ab0b98f7affa3a1d78a313d2f7281a57afb1a34bae8ab412/seaborn-0.13.2.tar.gz", hash = "sha256:93e60a40988f4d65e9f4885df477e2fdaff6b73a9ded434c1ab356dd57eefff7" }
+wheels = [
+    { url = "https://repo.bcnet.bcb.gov.br/api/pypi/pypi/packages/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl", hash = "sha256:636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987" },
 ]
 
 [[package]]
