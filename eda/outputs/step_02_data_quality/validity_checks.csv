@@ -1,0 +1,7 @@
+﻿rule,violations,percent_rows
+registration date must be parseable,0,0.0
+registration date must not be future,0,0.0
+victim quantity must be numeric,0,0.0
+victim quantity must be positive,0,0.0
+victim quantity must be integer,0,0.0
+victim quantity above IQR review fence,963,11.46

@@ -1,0 +1,15 @@
+{
+  "data_source": "outputs\\step_03_data_cleaning\\disque100_clean.parquet",
+  "counting_mode": "record",
+  "analytical_unit": "record",
+  "analytical_rows": 8401,
+  "confirmation_strategy": "temporal_holdout",
+  "partition_metadata": {
+    "strategy": "temporal_holdout",
+    "cutoff_date": "2025-04-25 15:44:09"
+  },
+  "alpha": 0.05,
+  "multiplicity_correction": "benjamini-hochberg",
+  "specification_sha256": "ef8de8917747b047fe6c9e9d5291fe43ed1d6900493db835f13d2f9042e34bca",
+  "confirmatory_tests_run": false
+}

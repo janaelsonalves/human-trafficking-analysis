@@ -1,0 +1,5 @@
+﻿metric,value
+IQR,1.0
+IQR upper review fence,3.5
+Records above fence,963.0
+99th percentile,50.0

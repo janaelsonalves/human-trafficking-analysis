@@ -1,0 +1,17 @@
+﻿cluster,column,category,count,cluster_share_pct,overall_share_pct,lift
+1,deficiencia_da_vitima,<MISSING>,6445,83.47,76.72,1.088
+1,raca_cor_do_suspeito,<MISSING>,4672,60.51,55.61,1.088
+1,suspeito_preso,<MISSING>,4364,56.52,51.95,1.088
+1,faixa_etaria_do_suspeito,<MISSING>,3834,49.66,45.64,1.088
+1,raca_cor_da_vitima,<MISSING>,3420,44.29,40.71,1.088
+1,orientacao_sexual_da_vitima,<MISSING>,2762,35.77,32.88,1.088
+1,genero_do_suspeito,<MISSING>,1881,24.36,22.39,1.088
+1,genero_da_vitima,<MISSING>,1454,18.83,17.31,1.088
+1,doenca_rara_da_vitima,<MISSING>,1231,15.94,14.65,1.088
+1,uf,<MISSING>,573,7.42,6.82,1.088
+1,relacao_vitima_suspeito,<MISSING>,236,3.06,3.77,0.81
+1,faixa_etaria_da_vitima,<MISSING>,72,0.93,5.65,0.165
+1,violacao,<MISSING>,23,0.3,2.26,0.132
+2,faixa_etaria_da_vitima,<MISSING>,403,59.26,5.65,10.482
+2,violacao,<MISSING>,167,24.56,2.26,10.859
+2,relacao_vitima_suspeito,<MISSING>,81,11.91,3.77,3.157

@@ -1,0 +1,10 @@
+﻿column,finding_type,finding,implication
+deficiencia_do_suspeito,high_missingness,77.13% missing,Report the denominator and evaluate missingness mechanisms before subgroup analysis.
+deficiencia_da_vitima,high_missingness,76.72% missing,Report the denominator and evaluate missingness mechanisms before subgroup analysis.
+motivacao,high_missingness,65.05% missing,Report the denominator and evaluate missingness mechanisms before subgroup analysis.
+raca_cor_do_suspeito,high_missingness,55.61% missing,Report the denominator and evaluate missingness mechanisms before subgroup analysis.
+suspeito_preso,high_missingness,51.95% missing,Report the denominator and evaluate missingness mechanisms before subgroup analysis.
+faixa_etaria_do_suspeito,high_missingness,45.64% missing,Report the denominator and evaluate missingness mechanisms before subgroup analysis.
+raca_cor_da_vitima,high_missingness,40.71% missing,Report the denominator and evaluate missingness mechanisms before subgroup analysis.
+municipio,high_cardinality,313 valid categories,"Use top-N charts and review grouping, hierarchy, spelling, and disclosure risk."
+denuncia_emergencial,dominant_category,Top category represents 91.01% of valid observations,"Verify whether this reflects the phenomenon, a default response, or collection design."

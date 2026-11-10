@@ -1,0 +1,12 @@
+﻿analysis_id,dimension,variant,purpose
+S01,counting unit,record-level,Assess repeated-record influence.
+S02,counting unit,unique hash,Assess complaint-level robustness.
+S03,missingness,complete pair,Primary pairwise analysis.
+S04,missingness,missing as category where substantively valid,Assess documentation-pattern influence.
+S05,time,exclude partial boundary months,Avoid incomplete-period distortion.
+S06,time,exclude documented form/system transition periods,Assess collection-process shifts.
+S07,category hierarchy,official detailed categories,Primary domain representation.
+S08,category hierarchy,official collapsed hierarchy,Improve sparse-cell diagnostics.
+S09,geography,exclude invalid or unmatched geographic records,Assess geographic-quality influence.
+S10,outliers,retain all positive victim quantities,Primary numeric analysis.
+S11,outliers,exclude pre-specified extreme collective complaints,Assess tail sensitivity without silent deletion.

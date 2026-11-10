@@ -1,0 +1,4 @@
+﻿check,status,value
+dataset_not_empty,PASS,8401
+columns_unique,PASS,0
+identifier_available,PASS,True

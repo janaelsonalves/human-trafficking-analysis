@@ -1,0 +1,4 @@
+﻿role,states,top1_share_pct,top5_share_pct,top10_share_pct,hhi,normalized_entropy,effective_number_of_states
+complaint,27,26.04,61.18,78.63,0.1137,0.799,8.79
+victim,27,25.2,62.48,78.26,0.1129,0.8029,8.85
+suspect,27,26.2,61.47,79.36,0.1149,0.7979,8.7

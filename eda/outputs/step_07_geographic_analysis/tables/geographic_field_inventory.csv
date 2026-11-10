@@ -1,0 +1,10 @@
+﻿role,level,column,present
+complaint,country,pais,True
+complaint,state,uf,True
+complaint,municipality,municipio,True
+victim,country,pais_da_vitima,True
+victim,state,uf_da_vitima,True
+victim,municipality,municipio_da_vitima,True
+suspect,country,pais_do_suspeito,True
+suspect,state,uf_do_suspeito,True
+suspect,municipality,sl_suspeito_municipio,True

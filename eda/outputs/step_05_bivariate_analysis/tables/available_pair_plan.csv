@@ -1,0 +1,16 @@
+﻿x,y,title
+violacao,faixa_etaria_da_vitima,Violation by victim age group
+violacao,genero_da_vitima,Violation by victim gender
+violacao,raca_cor_da_vitima,Violation by victim race/color
+violacao,grupo_vulneravel,Violation by vulnerable group
+violacao,relacao_vitima_suspeito,Violation by victim-suspect relationship
+violacao,denuncia_emergencial,Violation by emergency classification
+violacao,uf,Violation by complaint UF
+grupo_vulneravel,faixa_etaria_da_vitima,Vulnerable group by victim age
+relacao_vitima_suspeito,genero_da_vitima,Relationship by victim gender
+relacao_vitima_suspeito,faixa_etaria_da_vitima,Relationship by victim age
+genero_da_vitima,genero_do_suspeito,Victim gender by suspect gender
+faixa_etaria_da_vitima,faixa_etaria_do_suspeito,Victim age by suspect age
+denuncia_emergencial,cenario_da_violacao,Emergency status by setting
+denuncia_emergencial,frequencia,Emergency status by reported frequency
+canal_de_atendimento,denuncia_emergencial,Channel by emergency status

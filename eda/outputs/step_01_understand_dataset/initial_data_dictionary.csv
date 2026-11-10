@@ -1,0 +1,63 @@
+﻿column,dtype,non_null,physical_null,physical_null_pct,unique_non_null,sample_values,unique_pct_rows,normalized_name,domain,description
+hash,str,8401,0,0.0,1263,79c48e0d422d3ab1a306f8d7e498b8be | 0b9e67b28384351a4006c49ba3ff66b7 | 6fa1ed73ec4c3f385683c9fc03a3c062 | ba12fedf0ff1a3bbe12b853e0ae2da65 | 768c1101183c832a691252877bc2f5c2,15.03,hash,identifier,Record or complaint identifier; uniqueness must be verified.
+data_de_cadastro,str,8401,0,0.0,640,2021-01-08 23:11:00 | 2021-01-14 07:11:00 | 2021-01-12 07:34:00 | 2021-01-13 02:28:00 | 2021-01-13 18:24:00,7.62,data_de_cadastro,complaint,Registration date and time.
+canal_de_atendimento,str,8401,0,0.0,8,TELEFÔNICO | CARTA | WHATSAPP | TELEGRAM | WEBCHAT,0.1,canal_de_atendimento,complaint,Complaint intake channel.
+denuncia_emergencial,str,8401,0,0.0,5,NÃO | SITUAÇÃO FLAGRANTE - ATÉ 24H DA OCORRÊNCIA - SEM FREQUÊNCIA | N/D | RISCO IMINENTE DE MORTE DA VÍTIMA | VÍTIMA EM SANGRAMENTO,0.06,denuncia_emergencial,complaint,Emergency classification indicator.
+denunciante,str,8401,0,0.0,6,ANÔNIMO | TERCEIRO | A PRÓPRIA VÍTIMA | PESSOA COM DEFICIÊNCIA MENTAL | PESSOA EM SOFRIMENTO PSÍQUICO,0.07,denunciante,complaint,Pending validation against official metadata.
+cenario_da_violacao,str,8401,0,0.0,28,SERVIÇO DE ABRIGAMENTO | CASA ONDE RESIDE A VÍTIMA E O SUSPEITO | CASA DA VÍTIMA | VIA PÚBLICA | OUTROS,0.33,cenario_da_violacao,complaint,Pending validation against official metadata.
+pais,str,8401,0,0.0,29,BRASIL | PANAMÁ | ESTADOS UNIDOS | ALEMANHA | BR | BRASIL,0.35,pais,complaint_location,Pending validation against official metadata.
+uf,str,7828,573,6.82,30,SP | RJ | SE | MG | PB,0.36,uf,complaint_location,Pending validation against official metadata.
+municipio,str,7810,591,7.03,313,SÃO BERNARDO DO CAMPO | SÃO PAULO | RIO DE JANEIRO | SÃO DOMINGOS | IBIAÍ,3.73,municipio,complaint_location,Pending validation against official metadata.
+frequencia,str,8401,0,0.0,7,DIARIAMENTE | ÚNICA OCORRÊNCIA | SEMANALMENTE | OCASIONALMENTE | N/D,0.08,frequencia,complaint,Pending validation against official metadata.
+inicio_das_violacoes,str,8401,0,0.0,9,HÁ MAIS DE CINCO ANOS | HÁ MAIS DE SEIS MESES | NÃO SABE INFORMAR | NÃO SE APLICA | HÁ UM MÊS,0.11,inicio_das_violacoes,complaint,Pending validation against official metadata.
+sl_quantidade_vitimas,int64,8401,0,0.0,10,10 | 20 | 60 | 30 | 50,0.12,sl_quantidade_vitimas,victim,Number of victims associated with the record.
+grupo_vulneravel,str,8401,0,0.0,9,VIOLÊNCIA CONTRA CRIANÇA OU ADOLESCENTE | VIOLÊNCIA CONTRA PESSOA SOCIALMENTE VULNERÁVEL | VIOLÊNCIA CONTRA PESSOA COM DEFICIÊNCIA | VIOLAÇÃO DE DIREITOS HUMANOS | VIOLÊNCIA CONTRA POPULAÇÃO LGBTQIA+,0.11,grupo_vulneravel,complaint,Vulnerable group associated with the complaint.
+motivacao,str,2936,5465,65.05,87,PARA OBTENÇÃO DE BENEFÍCIO FINANCEIRO/ GANÂNCIA | DA COABITAÇÃO/ CONVIVÊNCIA FAMILIAR/ RELAÇÃO AFETIVA | RESULTANDO EM LESÃO GRAVÍSSIMA | EM RAZÃO DA IDADE | N/D,1.04,motivacao,complaint,Pending validation against official metadata.
+relacao_vitima_suspeito,str,8401,0,0.0,43,OUTROS | FAMILIARES | PAI | EMPREGADOR/PATRÃO (HIERARQUICAMENTE SUPERIOR) | NÃO SABE INFORMAR,0.51,relacao_vitima_suspeito,relationship,Reported victim-suspect relationship.
+sl_vitima_cadastro,str,8401,0,0.0,4,PESSOA FÍSICA | COMUNIDADE | FAMÍLIA | COMUNIDADE/FAMÍLIA,0.05,sl_vitima_cadastro,victim,Pending validation against official metadata.
+genero_da_vitima,str,7267,1134,13.5,6,FEMININO | N/D | MASCULINO | NÃO SE APLICA - VÍTIMA COMUNIDADE/FAMÍLIA | NÃO INFORMADO,0.07,genero_da_vitima,victim,Pending validation against official metadata.
+orientacao_sexual_da_vitima,str,6030,2371,28.22,10,N/D | BISSEXUAL | NÃO | NÃO INFORMADO | PESSOA TRANS.TRANSGÊNERO,0.12,orientacao_sexual_da_vitima,victim,Pending validation against official metadata.
+faixa_etaria_da_vitima,str,7996,405,4.82,40,02 A 04 ANOS | 00 A 01 ANO | 12 A 14 ANOS | 07 A 09 ANOS | 15 A 17 ANOS,0.48,faixa_etaria_da_vitima,victim,Pending validation against official metadata.
+nacionalidade_da_vitima,str,8401,0,0.0,10,N/D | BRASIL | BOLÍVIA | PANAMÁ | ALEMANHA,0.12,nacionalidade_da_vitima,victim,Pending validation against official metadata.
+sl_vitima_naturalidade,str,318,8083,96.21,1,NATO,0.01,sl_vitima_naturalidade,victim,Pending validation against official metadata.
+sl_vitima_naturalizado_uf,str,260,8141,96.91,16,SP | DENUNCIANTE NÃO SOUBE INFORMAR | MG | PB | RJ,0.19,sl_vitima_naturalizado_uf,victim,Pending validation against official metadata.
+sl_vitima_naturalizado_municipio,str,212,8189,97.48,25,SÃO PAULO | DENUNCIANTE NÃO SOUBE INFORMAR | SÃO BERNARDO DO CAMPO | BETIM | JOÃO PESSOA,0.3,sl_vitima_naturalizado_municipio,victim,Pending validation against official metadata.
+deficiencia_da_vitima,str,1988,6413,76.34,9,N/D | NÃO TEM DEFICIÊNCIA | MENTAL/INTELECTUAL | FÍSICA/MOTORA | NÃO,0.11,deficiencia_da_vitima,victim,Pending validation against official metadata.
+doenca_rara_da_vitima,str,7170,1231,14.65,3,NÃO TEM DOENÇA RARA | N/D | NÃO,0.04,doenca_rara_da_vitima,victim,Pending validation against official metadata.
+deficiencia_relacionada_a_doenca_rara,str,187,8214,97.77,2,NÃO | NÃO SABE INFORMAR,0.02,deficiencia_relacionada_a_doenca_rara,unclassified,Pending validation against official metadata.
+vitima_preso_a,str,5938,2463,29.32,3,N/D | NÃO | NÃO INFORMADO,0.04,vitima_preso_a,victim,Pending validation against official metadata.
+pais_da_vitima,str,8401,0,0.0,22,BRASIL | PANAMÁ | ALEMANHA | FRANÇA | BR | BRASIL,0.26,pais_da_vitima,victim,Pending validation against official metadata.
+uf_da_vitima,str,7813,588,7.0,30,SP | RJ | SE | MG | PB,0.36,uf_da_vitima,victim,Pending validation against official metadata.
+municipio_da_vitima,str,7760,641,7.63,301,SÃO BERNARDO DO CAMPO | SÃO PAULO | RIO DE JANEIRO | BERNARDINO DE CAMPOS | SÃO DOMINGOS,3.58,municipio_da_vitima,victim,Pending validation against official metadata.
+profissao_da_vitima,str,1375,7026,83.63,11,N/D | VIGIA | ESTUDANTE | GARÇOM | MASSOTERAPEUTA,0.13,profissao_da_vitima,victim,Pending validation against official metadata.
+grau_de_instrucao_da_vitima,str,1658,6743,80.26,9,N/D | SUPERIOR INCOMPLETO | ENSINO FUNDAMENTAL INCOMPLETO | ENSINO FUNDAMENTAL COMPLETO | ENSINO MÉDIO COMPLETO,0.11,grau_de_instrucao_da_vitima,victim,Pending validation against official metadata.
+religiao_da_vitima,str,1215,7186,85.54,11,N/D | PRESBITERIANA | UNIVERSAL DO REINO DE DEUS | BATISTA | SEM RELIGIÃO,0.13,religiao_da_vitima,victim,Pending validation against official metadata.
+raca_cor_da_vitima,str,8191,210,2.5,7,N/D | BRANCA | PARDA | PRETA | NÃO INFORMADO,0.08,raca_cor_da_vitima,victim,Pending validation against official metadata.
+etnia_da_vitima,str,979,7422,88.35,4,N/D | POVOS E COMUNIDADES TRADICIONAIS | DEMAIS COMUNIDADES TRADICIONAIS | POVOS INDÍGENAS,0.05,etnia_da_vitima,victim,Pending validation against official metadata.
+faixa_de_renda_da_vitima,str,963,7438,88.54,7,N/D | ATÉ 1 SM | 1 A 3 SM | 3 A 5 SM  | ATÉ 1/2 SALÁRIO MÍNIMO,0.08,faixa_de_renda_da_vitima,victim,Pending validation against official metadata.
+natureza_juridica_do_suspeito,str,8401,0,0.0,6,PESSOA FÍSICA | COMUNIDADE | ÓRGÃO PÚBLICO | PESSOA JURÍDICA DE DIREITO PRIVADO | FAMÍLIA,0.07,natureza_juridica_do_suspeito,suspect,Pending validation against official metadata.
+genero_do_suspeito,str,6738,1663,19.8,6,MASCULINO | FEMININO | N/D | NÃO INFORMADO | NÃO SE APLICA - VÍTIMA COMUNIDADE/FAMÍLIA,0.07,genero_do_suspeito,suspect,Pending validation against official metadata.
+orientacao_sexual_do_suspeito,str,6723,1678,19.97,11,N/D | BISSEXUAL | HOMOSSEXUAL | NÃO | HOMOSSEXUAL.LÉSBICA,0.13,orientacao_sexual_do_suspeito,suspect,Pending validation against official metadata.
+faixa_etaria_do_suspeito,str,5522,2879,34.27,19,60 A 64 ANOS | 35 A 39 ANOS | 45 A 49 ANOS | N/D | 30 A 34 ANOS,0.23,faixa_etaria_do_suspeito,suspect,Pending validation against official metadata.
+suspeito_nacionalidade,str,8392,9,0.11,20,BRASIL | N/D | NIGÉRIA | BOLÍVIA | VENEZUELA,0.24,suspeito_nacionalidade,suspect,Pending validation against official metadata.
+sl_suspeito_naturalidade,str,386,8015,95.41,2,NATO | NATURALIZADO,0.02,sl_suspeito_naturalidade,suspect,Pending validation against official metadata.
+sl_suspeito_naturalizado_uf,str,355,8046,95.77,14,SP | DENUNCIANTE NÃO SOUBE INFORMAR | MG | RJ | AM,0.17,sl_suspeito_naturalizado_uf,suspect,Pending validation against official metadata.
+sl_suspeito_naturalizado_municipio,str,270,8131,96.79,31,SÃO PAULO | DENUNCIANTE NÃO SOUBE INFORMAR | SÃO BERNARDO DO CAMPO | IBIAÍ | RIO DE JANEIRO,0.37,sl_suspeito_naturalizado_municipio,suspect,Pending validation against official metadata.
+deficiencia_do_suspeito,str,1947,6454,76.82,7,N/D | NÃO TEM DEFICIÊNCIA | MENTAL/INTELECTUAL | FÍSICA/MOTORA | NÃO,0.08,deficiencia_do_suspeito,suspect,Pending validation against official metadata.
+doenca_rara_do_suspeito,str,6743,1658,19.74,3,NÃO TEM DOENÇA RARA | N/D | NÃO,0.04,doenca_rara_do_suspeito,suspect,Pending validation against official metadata.
+deficiencia_relacionada_a_doenca_rara_suspeito,str,947,7454,88.73,2,NÃO | NÃO SABE INFORMAR,0.02,deficiencia_relacionada_a_doenca_rara_suspeito,suspect,Pending validation against official metadata.
+suspeito_preso,str,5513,2888,34.38,9,NÃO | N/D | FLAGRANTE | TEMPORÁRIA | NÃO INFORMADO,0.11,suspeito_preso,suspect,Pending validation against official metadata.
+pais_do_suspeito,str,8401,0,0.0,30,BRASIL | PANAMÁ | FRANÇA | ALEMANHA | CHINA,0.36,pais_do_suspeito,suspect,Pending validation against official metadata.
+uf_do_suspeito,str,7942,459,5.46,30,SP | RJ | SE | MG | PB,0.36,uf_do_suspeito,suspect,Pending validation against official metadata.
+sl_suspeito_municipio,str,7896,505,6.01,327,SÃO BERNARDO DO CAMPO | SÃO PAULO | RIO DE JANEIRO | SÃO DOMINGOS | IBIÁ,3.89,sl_suspeito_municipio,suspect,Pending validation against official metadata.
+profissao_do_suspeito,str,5603,2798,33.31,51,N/D | POLICIAL MILITAR | POLICIAL CIVIL | VENDEDOR DE COMÉRCIO VAREJISTA | ASSISTENTE SOCIAL,0.61,profissao_do_suspeito,suspect,Pending validation against official metadata.
+grau_de_instrucao_do_suspeito,str,947,7454,88.73,7,N/D | ENSINO FUNDAMENTAL INCOMPLETO | ENSINO MÉDIO COMPLETO | ENSINO FUNDAMENTAL COMPLETO | ANALFABETO,0.08,grau_de_instrucao_do_suspeito,suspect,Pending validation against official metadata.
+religiao_do_suspeito,str,1170,7231,86.07,13,N/D | OUTROS PENTECOSTAIS/NEOPENTECOSTAIS | CATÓLICA APOSTÓLICA ROMANA | CONGREGAÇÃO CRISTÃ NO BRASIL | SEM RELIGIÃO,0.15,religiao_do_suspeito,suspect,Pending validation against official metadata.
+raca_cor_do_suspeito,str,4741,3660,43.57,6,N/D | BRANCA | PRETA | PARDA | AMARELA,0.07,raca_cor_do_suspeito,suspect,Pending validation against official metadata.
+suspeito_etnia,str,985,7416,88.28,3,N/D | POVOS E COMUNIDADES TRADICIONAIS | DEMAIS COMUNIDADES TRADICIONAIS,0.04,suspeito_etnia,suspect,Pending validation against official metadata.
+faixa_de_renda_do_suspeito,str,947,7454,88.73,5,N/D | ATÉ 1 SM | 1 A 3 SM | ACIMA DE 15 SM | 5 A 15 SM,0.06,faixa_de_renda_do_suspeito,suspect,Pending validation against official metadata.
+vinculo_orgao_pj_do_suspeito,float64,0,8401,100.0,0,,0.0,vinculo_orgao_pj_do_suspeito,suspect,Pending validation against official metadata.
+sl_suspeito_ramo,str,2396,6005,71.48,28,"N/D | OUTRAS ATIVIDADES DE SERVIÇOS | PODER LEGISLATIVO ? ESTADUAL/DISTRITO FEDERAL | PODER JUDICIÁRIO - ESTADUAL | SEGURANÇA PÚBLICA, FORÇAS ARMADAS, DEFESA CIVIL, BOMBEIROS E ASSEMELHADOS ? FEDERAL",0.33,sl_suspeito_ramo,suspect,Pending validation against official metadata.
+suspeito_especificacao_etnia,str,974,7427,88.41,4,N/D | JUVENTUDE DE POVOS E COMUNIDADES TRADICIONAIS | NÃO INFORMADO | OUTROS,0.05,suspeito_especificacao_etnia,suspect,Pending validation against official metadata.
+vitima_especificacao_etnia,str,991,7410,88.2,3,N/D | OUTROS | NÃO INFORMADO,0.04,vitima_especificacao_etnia,victim,Pending validation against official metadata.
+violacao,str,8211,190,2.26,101,INTEGRIDADE>PSÍQUICA>CALÚNIA | INTEGRIDADE>PSÍQUICA>AMEAÇA ou COAÇÃO | LIBERDADE>DIREITOS INDIVIDUAIS>TRÁFICO DE PESSOAS - INTERNACIONAL | LIBERDADE>DIREITOS INDIVIDUAIS>CÁRCERE PRIVADO | LIBERDADE>DIREITOS INDIVIDUAIS>SEQUESTRO,1.2,violacao,complaint,Reported human rights violation category.

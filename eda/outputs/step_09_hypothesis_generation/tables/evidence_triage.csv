@@ -1,0 +1,4 @@
+﻿candidate_id,source_step,source_reference,candidate_statement,analytical_unit_clear,denominator_clear,completeness_acceptable,sparse_cells_controlled,effect_size_available,independent_confirmation_feasible,priority_notes,evidence_score,priority
+C01,bivariate,violacao × faixa_etaria_da_vitima,The distribution of recorded violation categories differs across victim age groups.,1,1,1,0,1,1,Confirm using a temporal holdout and collapsed official violation hierarchy.,5,high
+C02,bivariate,violacao × relacao_vitima_suspeito,Recorded violation composition differs by victim-suspect relationship.,1,1,1,0,1,1,Use FDR control and inspect standardized residuals only after omnibus confirmation.,5,high
+C03,temporal,monthly emergency rate,The proportion of complaints classified as emergency changes over calendar time.,1,1,1,1,0,1,Pre-specify periods and account for form or channel changes.,5,high

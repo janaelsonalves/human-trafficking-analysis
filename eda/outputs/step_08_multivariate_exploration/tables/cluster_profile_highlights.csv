@@ -1,0 +1,41 @@
+﻿cluster,column,category,count,cluster_share_pct,overall_share_pct,lift
+1,grupo_vulneravel,"VIOLÊNCIA CONTRA CIDADÃO, FAMÍLIA OU COMUNIDADE",1397,18.09,16.63,1.088
+1,grupo_vulneravel,VIOLÊNCIA CONTRA A MULHER,1112,14.4,13.24,1.088
+1,frequencia,NÃO SABE INFORMAR,1553,20.11,18.49,1.088
+1,genero_da_vitima,<MISSING>,1454,18.83,17.31,1.088
+1,faixa_etaria_da_vitima,CRIANÇA/ADOLESCENTE IDADE NÃO INFORMADA,1191,15.43,14.18,1.088
+1,raca_cor_da_vitima,<MISSING>,3420,44.29,40.71,1.088
+1,orientacao_sexual_da_vitima,NÃO,4313,55.86,51.34,1.088
+1,orientacao_sexual_da_vitima,<MISSING>,2762,35.77,32.88,1.088
+1,deficiencia_da_vitima,<MISSING>,6445,83.47,76.72,1.088
+1,deficiencia_da_vitima,NÃO,966,12.51,11.5,1.088
+1,doenca_rara_da_vitima,NÃO,6223,80.6,74.07,1.088
+1,doenca_rara_da_vitima,<MISSING>,1231,15.94,14.65,1.088
+1,genero_do_suspeito,<MISSING>,1881,24.36,22.39,1.088
+1,faixa_etaria_do_suspeito,<MISSING>,3834,49.66,45.64,1.088
+1,raca_cor_do_suspeito,<MISSING>,4672,60.51,55.61,1.088
+1,suspeito_preso,<MISSING>,4364,56.52,51.95,1.088
+1,raca_cor_da_vitima,BRANCA,1976,25.59,23.97,1.068
+1,suspeito_preso,NÃO,3019,39.1,37.15,1.053
+1,raca_cor_da_vitima,PARDA,1413,18.3,17.46,1.048
+1,cenario_da_violacao,CASA DA VÍTIMA,1176,15.23,14.58,1.045
+2,genero_da_vitima,N/D,354,52.06,4.21,12.354
+2,doenca_rara_da_vitima,N/D,252,37.06,3.0,12.354
+2,genero_do_suspeito,N/D,252,37.06,3.0,12.354
+2,faixa_etaria_do_suspeito,N/D,333,48.97,3.96,12.354
+2,natureza_juridica_do_suspeito,COMUNIDADE,75,11.03,0.89,12.354
+2,raca_cor_do_suspeito,N/D,422,62.06,5.09,12.181
+2,grupo_vulneravel,VIOLAÇÃO DE DIREITOS HUMANOS,103,15.15,1.25,12.119
+2,raca_cor_da_vitima,N/D,583,85.74,7.13,12.024
+2,grupo_vulneravel,VIOLÊNCIA CONTRA PESSOA SOCIALMENTE VULNERÁVEL,85,12.5,1.07,11.668
+2,violacao,<MISSING>,167,24.56,2.26,10.859
+2,faixa_etaria_da_vitima,<MISSING>,403,59.26,5.65,10.482
+2,suspeito_preso,N/D,564,82.94,7.92,10.478
+2,deficiencia_da_vitima,N/D,612,90.0,9.73,9.254
+2,orientacao_sexual_da_vitima,N/D,679,99.85,11.25,8.877
+2,doenca_rara_da_vitima,NÃO TEM DOENÇA RARA,428,62.94,8.27,7.608
+2,denuncia_emergencial,SITUAÇÃO FLAGRANTE - ATÉ 24H DA OCORRÊNCIA - SEM FREQUÊNCIA,70,10.29,1.37,7.52
+2,relacao_vitima_suspeito,<MISSING>,81,11.91,3.77,3.157
+2,cenario_da_violacao,AMBIENTE VIRTUAL (NO ÂMBITO DA INTERNET),83,12.21,3.96,3.079
+2,uf,CE,69,10.15,3.87,2.623
+2,frequencia,OCASIONALMENTE,89,13.09,5.61,2.334

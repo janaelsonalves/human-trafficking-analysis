@@ -1,0 +1,10 @@
+﻿entity,rule,violations,percent_rows
+complaint,Brazil requires UF,0,0.0
+complaint,UF must be valid,927,11.03
+complaint,Valid UF requires municipality review,0,0.0
+victim,Brazil requires UF,0,0.0
+victim,UF must be valid,1416,16.86
+victim,Valid UF requires municipality review,53,0.63
+suspect,Brazil requires UF,0,0.0
+suspect,UF must be valid,1202,14.31
+suspect,Valid UF requires municipality review,46,0.55

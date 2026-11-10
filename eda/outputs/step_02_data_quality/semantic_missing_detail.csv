@@ -1,0 +1,19 @@
+﻿column,raw_value,count,percent_rows
+inicio_das_violacoes,NÃO SE APLICA,1046,12.45
+relacao_vitima_suspeito,NÃO SE APLICA,317,3.77
+genero_da_vitima,NÃO INFORMADO,320,3.81
+orientacao_sexual_da_vitima,NÃO INFORMADO,391,4.65
+faixa_etaria_da_vitima,NÃO INFORMADO,70,0.83
+deficiencia_da_vitima,NÃO INFORMADO,32,0.38
+vitima_preso_a,NÃO INFORMADO,543,6.46
+religiao_da_vitima,NÃO SABE,260,3.09
+raca_cor_da_vitima,NÃO INFORMADO,3210,38.21
+genero_do_suspeito,NÃO INFORMADO,218,2.59
+orientacao_sexual_do_suspeito,NÃO INFORMADO,75,0.89
+faixa_etaria_do_suspeito,NÃO INFORMADO,955,11.37
+deficiencia_do_suspeito,NÃO INFORMADO,26,0.31
+suspeito_preso,NÃO INFORMADO,1476,17.57
+religiao_do_suspeito,NÃO SABE,120,1.43
+raca_cor_do_suspeito,NÃO INFORMADO,1012,12.05
+suspeito_especificacao_etnia,NÃO INFORMADO,39,0.46
+vitima_especificacao_etnia,NÃO INFORMADO,28,0.33

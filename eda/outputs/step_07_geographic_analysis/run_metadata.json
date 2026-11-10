@@ -1,0 +1,12 @@
+{
+  "data_source": "outputs\\step_03_data_cleaning\\disque100_clean.parquet",
+  "counting_mode": "record",
+  "analytical_unit": "records",
+  "analytical_rows": 8401,
+  "municipality_reference_status": "not_available",
+  "population_status": "not_available",
+  "rate_multiplier": 100000,
+  "suppression_threshold": 5,
+  "state_geojson_loaded": false,
+  "municipality_geojson_loaded": false
+}

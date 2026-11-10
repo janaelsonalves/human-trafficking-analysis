@@ -1,0 +1,3 @@
+﻿hypothesis_family,effect_metric,smallest_effect_of_interest,alpha,target_power,planning_notes
+primary_categorical,Cramér's V,0.1,0.05,0.8,Recalculate using final contingency-table degrees of freedom and multiplicity-adjusted alpha.
+primary_numeric,epsilon-squared or median difference,Define with domain experts,0.05,0.8,Use simulation based on discovery-sample group sizes and empirical distributions.

@@ -1,0 +1,12 @@
+{
+  "data_source": "outputs\\step_03_data_cleaning\\disque100_clean.parquet",
+  "counting_mode": "record",
+  "analytical_unit_label": "records",
+  "source_rows": 8401,
+  "analysis_rows": 8401,
+  "identifier": "hash",
+  "top_n": 20,
+  "rare_category_min_count": 10,
+  "rare_category_min_percent": 0.5,
+  "include_missing_in_charts": true
+}
